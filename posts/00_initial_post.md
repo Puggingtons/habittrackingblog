@@ -16,7 +16,16 @@ Um auch das Kommentieren unter diesen Blogposts zu ermöglichen, benutzen wir [u
 
 Durch diese App ist es möglich, mit einem GitHub-Account Kommentare unter unseren Blogposts zu schreiben.
 
-Probiert es doch gleich mal aus 😊👇
+Probiert es doch gleich mal aus 😊👇 (ganz unten auf der Seite)
+
+## Tech Stack
+- [Typescript](https://www.typescriptlang.org/)
+- [React](https://react.dev/) (Frontend)
+- [React Material UI](https://mui.com/material-ui/) (Frontend Design)
+- [Nest.js](https://nestjs.com/) (Backend)
+- [Docker](https://www.docker.com/)
+- [GitHub](https://www.github.com/)
+- [prisma.js](https://www.prisma.io/) (Datenbankanbindung)
 
 <script src="https://utteranc.es/client.js"
         repo="Puggingtons/habittrackingblog"
