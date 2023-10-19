@@ -3,6 +3,13 @@
 
 ## 1. Vorstellung des Teams
 
+| Name            | Rolle |
+| --------------- | ----- |
+| Paul Bader      | Entwickler      |
+| Kayra Güler     | Entwickler      |
+| Janis Piehler   | Entwickler      |
+| Kai Schablowsky | Entwickler      |
+
 
 ## 2. Produktvision
 
