@@ -5,7 +5,7 @@
 
 | Name            | Rolle |
 | --------------- | ----- |
-| Paul Bader      | Entwickler      |
+| Paul Bader      | Entwickler, Scrum Master      |
 | Kayra Güler     | Entwickler      |
 | Janis Piehler   | Entwickler      |
 | Kai Schablowsky | Entwickler      |
