@@ -23,6 +23,8 @@
 
 ### Sprintlänge
 
+2 Wochen
+
 
 ## 5. Sprint Backlog
 
