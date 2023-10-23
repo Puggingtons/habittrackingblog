@@ -7,7 +7,7 @@
 | ---------------:| ----------------------------- |
 | Paul Bader      | Entwickler, Scrum Master      |
 | Kayra Güler     | Entwickler, Frontend          |
-| Janis Piehler   | Entwickler, Backtend          |
+| Janik Piehler   | Entwickler, Backend           |
 | Kai Schablowsky | Entwickler, Frontend          |
 
 
@@ -17,7 +17,7 @@ Die Vision des Produktes ist es, Benutzern durch die Nutzung des Produkts das Au
 
 ## 3. Verwendete Technik
 
-Der Tech-Stack, der in diesem Projekt benutzt wird, ist bereits im [ersten Blogpost](./00_initial_post) zu finden.x
+Der Tech-Stack, der in diesem Projekt benutzt wird, ist bereits im [ersten Blogpost](./00_initial_post) zu finden.
 
 ## 4. Scrum Setup
 
