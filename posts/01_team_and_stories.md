@@ -21,10 +21,12 @@
 
 ### verwendete Plattform
 
+Um unserer Sprints zu planen und Aufgaben zu verwalten haben wir uns für Git-Pojects entschieden, da unser Repository bereits in Git ist und Git-Projects alle benötigten Funktionen bietet.
+
 ### Sprintlänge
 
-2 Wochen
-
+Für unserer Projektstruktur haben wir uns entschieden mit Sprints von einer Dauer von zwei Wochen zu arbeiten. Unser Sprint beginnt am Dienstag mit unserem Review(30min) gefolgt von der Retrospektive(30min) und dem Sprint planning(30min).
+Innerhalb des Sprints gibt es am Dienstag und Donnerstag unsere "Dailys" mit einer Dauer von 30 Minuten.
 
 ## 5. Sprint Backlog
 
