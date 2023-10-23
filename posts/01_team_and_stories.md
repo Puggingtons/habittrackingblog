@@ -3,12 +3,12 @@
 
 ## 1. Vorstellung des Teams
 
-| Name            | Rolle |
-| --------------- | ----- |
+| Name            | Rolle                         |
+| ---------------:| ----------------------------- |
 | Paul Bader      | Entwickler, Scrum Master      |
-| Kayra Güler     | Entwickler      |
-| Janis Piehler   | Entwickler      |
-| Kai Schablowsky | Entwickler      |
+| Kayra Güler     | Entwickler                    |
+| Janis Piehler   | Entwickler                    |
+| Kai Schablowsky | Entwickler                    |
 
 
 ## 2. Produktvision
