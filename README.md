@@ -3,7 +3,8 @@
 Der Text auf dieser Seite ist noch WIP 😇
 
 ## Posts
-[Erster Post](posts/00_initial_post)
+- [00: Hallo](posts/00_initial_post)
+- [01: Team, Scrum und Sprint Backlog](posts/01_team_and_stories)
 
 <script src="https://utteranc.es/client.js"
         repo="Puggingtons/habittrackingblog"
