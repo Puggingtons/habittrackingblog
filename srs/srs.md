@@ -76,24 +76,45 @@ Die Anwendung dient dabei als Motivation und Erinnerung, bestimmte Dinge in fest
 Im Folgenden werden Kernfunktionalitäten aufgeführt und deren Sequenzdiagramme gezeigt.
 
 #### 3.1.1	Registrieren
+
+Um es Benutzern zu ermöglichen, eigene Habits in der Anwendung zu erstellen, benötigt die Anwendung die Funktionalität, es Benutzern zu ermöglichen, einen Benutzeraccount zu registrieren.
+
 ![](registration.png)
 
 #### 3.1.2 Anmelden
+
+Die Anwendung ermöglicht es Benutzern, sich anzumelden um so die eigenen Habits zu sehen.
+
 ![](login.png)
 
 #### 3.1.3 Abmelden
+
+Die Anwendung ermöglicht es Benutzern, sich abzumelden, sodass mehrere Benutzer am selben Endgerät nacheinander die Anwendung benutzen können.
+
 ![](logout.png)
 
 #### 3.1.4 Habit erstellen
+
+Um die Anwendung sinnvoll einsetzen zu können, muss es Benutzern ermöglicht werden, eigene Habits zu erstellen.
+
 ![](create_habit.png)
 
 #### 3.1.5 Habit bearbeiten
+
+Ein Benutzer soll die Möglichkeit bekommen, seine erstellten Habits zu bearbeiten, um eventuelle Fehler bei der initialen Erstellung zu beheben.
+
 ![](edit_habit.png)
 
 #### 3.1.6 Habit löschen
+
+Es soll einem Benutzer ermöglicht werden, Habits zu löschen, wenn dieser dafür keine Tätigkeiten mehr aufnehmen möchte.
+
 ![](delete_habit.png)
 
 #### 3.1.7 Habitübersicht anzeigen
+
+Um dem Benutzer eine zentrale Stelle für die Habitverwaltung zu bieten, soll ihm eine Übersicht über all seine Habits dargestellt werden.
+
 ![](show_habitoverview.png)
 
 ### 3.2	Usability
