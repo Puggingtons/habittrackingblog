@@ -14,6 +14,7 @@ Der Text auf dieser Seite ist noch WIP 😇
 - [Babyport](https://medium.com/@babyport)
 - [Corgi Shop](https://github.com/mausio/corgi-shop-doc/discussions)
 - [Incid Arch](https://dh-karlsruhe.github.io/IncidArch-Blog/)
+- [School planner](https://michaelsteininger2003.wordpress.com/)
 
 <script src="https://utteranc.es/client.js"
         repo="Puggingtons/habittrackingblog"
