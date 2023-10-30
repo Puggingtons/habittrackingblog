@@ -42,10 +42,16 @@ In den folgenden Kapiteln wird ein genereller Überblick über dieses Projekt un
 
 ## 2.	Overall Description
 
-### 2.1 Use Case Diagram
+### 2.1 Vision
+
+Die Vision des Projekts ist es, es Benutzern zu ermöglichen, durch die Nutzung der Webanwendung neue Gewohnheiten und Routinen aufzubauen.
+
+Die Anwendung dient dabei als Motivation und Erinnerung, bestimmte Dinge in fest definierten Zeiträumen zu erledigen.
+
+### 2.2 Use Case Diagram
 ![Use Case Diagram](use_case_diagram.png)
 
-### 2.2 Technology Stack
+### 2.3 Technology Stack
 
 | Technology        | Use                     |
 | ----------------- | ----------------------- |
@@ -57,7 +63,7 @@ In den folgenden Kapiteln wird ein genereller Überblick über dieses Projekt un
 | Docker            | Hardwareabstraktion     |
 | GitHub            | Code-/Projektverwaltung |
 
-### 2.3 GUI Mockup
+### 2.4 GUI Mockup
 ![GUI Mock 1](gui_mock_1.png)
 ![GUI Mock 2](gui_mock_2.png)
 ![GUI Mock 3](gui_mock_3.png)
