@@ -31,10 +31,14 @@ Geplante Funktionalitäten sind:
 
 ### 1.4	References
 
-
+| Title | Publisher |
+| ----- | --------- |
+| [Blog](https://puggingtons.github.io/habittrackingblog/) | Habittracker Team |
+| [GitHub](https://github.com/Puggingtons/habittracking) | Habittracker Team |
 
 ### 1.5	Overview
 
+In den folgenden Kapiteln wird ein genereller Überblick über dieses Projekt und dessen Struktur geschaffen.
 
 ## 2.	Overall Description
 
