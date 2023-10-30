@@ -1,6 +1,6 @@
 # Blogpost 02_SRS_and_Other
 ### Link zu SRS-Dokument
-[Link zu dem SRS-Dokument]()
+[Link zu dem SRS-Dokument](../srs/srs)
 
 ---
 ### Andere Aktivitäten
