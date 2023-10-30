@@ -31,6 +31,8 @@ Geplante Funktionalitäten sind:
 
 ### 1.4	References
 
+
+
 ### 1.5	Overview
 
 
@@ -50,6 +52,11 @@ Geplante Funktionalitäten sind:
 | prisma.js         | Datenbankanbindung      |
 | Docker            | Hardwareabstraktion     |
 | GitHub            | Code-/Projektverwaltung |
+
+### 2.3 GUI Mockup
+![GUI Mock 1](gui_mock_1.png)
+![GUI Mock 2](gui_mock_2.png)
+![GUI Mock 3](gui_mock_3.png)
 
 
 ## 3.	Specific Requirements
