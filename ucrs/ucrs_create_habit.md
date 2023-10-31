@@ -5,13 +5,13 @@
 
 ### 1.1 Purpose
 
-Dieses Dokument beschreibt den Ablauf der Sequenz zum erstellen eines Habits. Es beschreibt die benötigten Ressourcen und den jeweiligen Arbeitsaufwand.
+Dieses Dokument beschreibt den Ablauf der Sequenz zum Erstellen eines Habits. Es beschreibt die benötigten Ressourcen und den jeweiligen Arbeitsaufwand.
 
 ### 1.2 Scope
 
 Die Sequenz muss folgende Eigenschaften/Funktionen erfüllen:
 
-- Aufrufen eines Dialogfensters für den Benutzer zum Eintragen der Daten der zur erstellenden Habit über die Habitübersicht
+- Aufrufen eines Dialogfensters für den Benutzer zum Eintragen der Daten der zur dem erstellenden Habit über die Habitübersicht
 - Das Erstellen von neuen Einträgen in der Datenbank und anschließendes befüllen mit den angegebenen Daten
 - Das erfolgreiche Erstellen und anschließendes Anzeigen des neuen Habits in der Habitübersicht
 
@@ -45,11 +45,11 @@ Die Sequenz benötigt insgesamt 4 Actor:
   - Das Backend
 - Die Datenbank
 
-Die Sequenz beginnt mit dem öffnen des Dialogs zum erstellen eines Habits auf der Habitübersicht. Dies aktiviert das Frontend und zeigt dem Benutzer das angefragte Dialog zum erstellen eines Habits an.
+Die Sequenz beginnt mit dem Öffnen des Dialogs zum Erstellen eines Habits auf der Habitübersicht. Dies aktiviert das Frontend und zeigt dem Benutzer der angefragte Dialog zum Erstellen eines Habits an. 
 
 Der Benutzer gibt nun seine Habitdaten im Dialog ein. Beim Absenden der Daten wird das Frontend aktiviert, und leitet die Habitdaten an das Backend weiter. Das Backend aktiviert die Datenbank, erstellt neue Einträge und schreibt die Habitdaten in die Datenbank. 
 
-Nach erfolgreichem erstellen der Einträge gibt die Datenbank die Habitdaten an das Backend zurück. Das Backend leitet die Daten an das Frontend weiter und zeigt dem Benutzer die Habitansicht an, wo das neu erstellte Habit hinzugefügt worden ist.
+Nach erfolgreichem erstellen der Einträge gibt die Datenbank die Habitdaten an das Backend zurück. Das Backend leitet die Daten an das Frontend weiter und zeigt dem Benutzer die Habitansicht an, wo das neu erstellte Habit hinzugefügt worden ist. 
 
 ## 3 Derived Requirements
 
