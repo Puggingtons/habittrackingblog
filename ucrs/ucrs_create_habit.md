@@ -1,7 +1,7 @@
 # Use-Case-Realization Specification
 # Erstellung eines Habits
 
-## 1 Introduciton
+## 1 Introduction
 
 ### 1.1 Purpose
 
