@@ -9,7 +9,11 @@ Dieses Dokument beschreibt den Ablauf der Sequenz zum erstellen eines Habits. Es
 
 ### 1.2 Scope
 
-Dieses UCRS beschreibt den Ablauf der Sequenz zum erstellen eines Habits. Dies geschieht auf der Habitübersicht.
+Die Sequenz muss folgende Eigenschaften/Funktionen erfüllen:
+
+- Aufrufen eines Dialogfensters für den Benutzer zum Eintragen der Daten der zur erstellenden Habit über die Habitübersicht
+- Das Erstellen von neuen Einträgen in der Datenbank und anschließendes befüllen mit den angegebenen Daten
+- Das erfolgreiche Erstellen und anschließendes Anzeigen des neuen Habits in der Habitübersicht
 
 ### 1.3 Definitions, Acronyms, and Abbreviations
 
@@ -17,11 +21,15 @@ Keine
 
 ### 1.4 References
 
-- UCRS Habitübersicht
+| Title | Publisher |
+| ----- | --------- |
+| [Blog](https://puggingtons.github.io/habittrackingblog/) | Habittracker Team |
+| [GitHub](https://github.com/Puggingtons/habittracking) | Habittracker Team |
+| [UCRS Habitübersicht](https://puggingtons.github.io/habittrackingblog/ucrs) | Habittracker Team|
 
 ### 1.5 Overview
 
-
+Im folgenden wird der Ablauf der Sequenz beschrieben sowie die Voraussetzungen für das erfolgreiche Ausführen.
 
 ## 2 Flow of Events -- Design
 
@@ -44,3 +52,15 @@ Der Benutzer gibt nun seine Habitdaten im Dialog ein. Beim Absenden der Daten wi
 Nach erfolgreichem erstellen der Einträge gibt die Datenbank die Habitdaten an das Backend zurück. Das Backend leitet die Daten an das Frontend weiter und zeigt dem Benutzer die Habitansicht an, wo das neu erstellte Habit hinzugefügt worden ist.
 
 ## 3 Derived Requirements
+
+Für den Ablauf der Sequenz wird benötigt:
+
+- Eine Habitübersicht (siehe [UCRS Habitübersicht](https://puggingtons.github.io/habittrackingblog/ucrs))
+- Eine Schnittstellte zwischen Frontend & Backend
+- Eine Datenbank
+
+Zudem müssen die folgenden Bedingungen erfüllt werden:
+
+- Das erstellte Habit muss dem jeweiligen Benutzer zugeordnet werden können, um es später auf seiner Übersicht anzeigen zu lassen
+- Das erstellte Habit darf von keinem anderen Benutzer eingesehen werden
+
