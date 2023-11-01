@@ -5,7 +5,7 @@
 
 ### 1.1 Purpose
 
-Dieses Dokument beschreibt den Ablauf der Sequenz zum Erstellen eines Habits. Es beschreibt die benötigten Ressourcen und den jeweiligen Arbeitsaufwand.
+Dieses Dokument beschreibt den Ablauf der Sequenz zum Erstellen eines Habits und die benötigten Ressourcen.
 
 ### 1.2 Scope
 
@@ -25,7 +25,7 @@ Keine
 | ----- | --------- |
 | [Blog](https://puggingtons.github.io/habittrackingblog/) | Habittracker Team |
 | [GitHub](https://github.com/Puggingtons/habittracking) | Habittracker Team |
-| [UCRS Habitübersicht](https://puggingtons.github.io/habittrackingblog/ucrs) | Habittracker Team|
+| [UCRS Habitübersicht](https://puggingtons.github.io/habittrackingblog/ucrs/ucrs_habitoverview.md) | Habittracker Team|
 
 ### 1.5 Overview
 
@@ -55,7 +55,7 @@ Nach erfolgreichem erstellen der Einträge gibt die Datenbank die Habitdaten an 
 
 Für den Ablauf der Sequenz wird benötigt:
 
-- Eine Habitübersicht (siehe [UCRS Habitübersicht](https://puggingtons.github.io/habittrackingblog/ucrs))
+- Eine Habitübersicht (siehe [UCRS Habitübersicht](https://puggingtons.github.io/habittrackingblog/ucrs/ucrs_habitoverview.md))
 - Eine Schnittstellte zwischen Frontend & Backend
 - Eine Datenbank
 
