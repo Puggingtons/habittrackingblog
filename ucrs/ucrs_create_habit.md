@@ -25,7 +25,7 @@ Keine
 | ----- | --------- |
 | [Blog](https://puggingtons.github.io/habittrackingblog/) | Habittracker Team |
 | [GitHub](https://github.com/Puggingtons/habittracking) | Habittracker Team |
-| [UCRS Habitübersicht](https://puggingtons.github.io/habittrackingblog/ucrs/ucrs_habitoverview.md) | Habittracker Team|
+| [UCRS Habitübersicht](ucrs_overview.md) | Habittracker Team|
 
 ### 1.5 Overview
 
@@ -55,7 +55,7 @@ Nach erfolgreichem erstellen der Einträge gibt die Datenbank die Habitdaten an 
 
 Für den Ablauf der Sequenz wird benötigt:
 
-- Eine Habitübersicht (siehe [UCRS Habitübersicht](https://puggingtons.github.io/habittrackingblog/ucrs/ucrs_habitoverview.md))
+- Eine Habitübersicht (siehe [UCRS Habitübersicht](ucrs_overview.md))
 - Eine Schnittstellte zwischen Frontend & Backend
 - Eine Datenbank
 

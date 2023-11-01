@@ -26,7 +26,7 @@ Keine
 | ----- | --------- |
 | [Blog](https://puggingtons.github.io/habittrackingblog/) | Habittracker Team |
 | [GitHub](https://github.com/Puggingtons/habittracking) | Habittracker Team |
-| [UCRS Erstellen eines Habits](https://puggingtons.github.io/habittrackingblog/ucrs/ucrs_create_habit.md) | Habittracker Team|
+| [UCRS Erstellen eines Habits](ucrs_create_habit.md) | Habittracker Team|
 
 ### 1.5 Overview
 
@@ -34,7 +34,7 @@ Im folgenden wird der Ablauf der Sequenz beschrieben sowie die Voraussetzungen f
 
 ## 2 Flow of Events -- Design
 
-Die Habitübersicht sollte die Hauptseite der Applikation sein, sobald sich der Benutzer angemeldet hat. Der Benutzer muss die Möglichkeit haben, alle eingetragenen Habits einzusehen, neue zu erstellen (siehe [UCRS Erstellen eines Habits](https://puggingtons.github.io/habittrackingblog/ucrs/ucrs_create_habit.md)) und ggf. zu bearbeiten. Dafür wird die Habitübersicht verwendet.
+Die Habitübersicht sollte die Hauptseite der Applikation sein, sobald sich der Benutzer angemeldet hat. Der Benutzer muss die Möglichkeit haben, alle eingetragenen Habits einzusehen, neue zu erstellen (siehe [UCRS Erstellen eines Habits](ucrs_create_habit.md)) und ggf. zu bearbeiten. Dafür wird die Habitübersicht verwendet.
 
 ![Aufrufen der Übersichtsseite](show_habitoverview.png)
 
