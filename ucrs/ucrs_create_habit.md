@@ -1,5 +1,5 @@
 # Use-Case-Realization Specification
-# Erstellung eines Habits
+# Erstellen eines Habits
 
 ## 1 Introduction
 
