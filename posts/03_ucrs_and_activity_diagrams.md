@@ -2,7 +2,7 @@
 
 ## Activity Diagrams
 ### Registrieren
-![Registrieren](..\srs\UML_registrieren.png)
+![Registrieren](..\srs\Aktivitätsdiagramm_registrieren.png)
 ### Anmelden
 ![Anmelden](..\srs\Aktivitätsdiagramm_anmelden.png)
 ### Abmelden
