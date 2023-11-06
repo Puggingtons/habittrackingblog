@@ -2,29 +2,25 @@
 
 ## Activity Diagrams
 
-Die Aufgabe, die Activity Diagrams zu erstellen, wollte eigentlich Janik übernehmen. Er hat diese jedoch nicht erstellt. Daher hat Paul diese Arbeit übernommen.
-
-Die Diagramme sind im SRS an den entsprechenden Stellen eingebunden, werden aber zusätzlich im Folgenden auch gezeigt:
-
 ### Registration Activity Diagram
-![](../srs/activity_diagrams/registration.png)
+![](../srs/activity_diagrams/Aktivitätsdiagramm_registrieren.png)
 
 ### Login Activity Diagram
-![](../srs/activity_diagrams/login.png)
+![](../srs/activity_diagrams/Aktivitätsdiagramm_anmelden.png)
 
 ### Logout Activity Diagram
-![](../srs/activity_diagrams/logout.png)
+![](../srs/activity_diagrams/Aktivitätsdiagramm_abmelden.png)
 
 ## Sequence Diagrams
 
-Die Sequenzdiagramme wurden letzte Woche bereits erstellt und sind in der [SRS](srs/srs) zu finden.
+Die Sequenzdiagramme wurden letzte Woche bereits erstellt und sind in der [SRS](../srs/srs) zu finden.
 
 ## UCRS
 
 Die beiden Use-Case-Realization Specifications sind hier zu finden:
 
-- [Habit erstellen](ucrs/ucrs_create_habit)
-- [Habitübersicht](ucrs/ucrs_overview)
+- [Habit erstellen](../ucrs/ucrs_create_habit)
+- [Habitübersicht](../ucrs/ucrs_overview)
 
 ## Andere Aktivitäten
 
