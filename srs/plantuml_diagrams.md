@@ -243,3 +243,76 @@ fe -> us : Habitübersicht anzeigen
 deactivate fe
 @enduml
 ```
+
+## Sequenzdiagramme
+
+### Registrieren
+```plantuml
+@startuml
+
+start
+
+:Open Website;
+
+repeat :Open Registration View;
+
+if ( ) then ( )
+	stop
+else ( )
+	:Enter Registration Data;
+endif
+
+:Submit Registration Data;
+
+repeat while (registration successful) is (no) not (yes)
+  
+:View Habitoverview;
+
+stop
+
+@enduml
+```
+
+### Anmelden
+```plantuml
+@startuml
+
+start
+
+:Open Website;
+
+repeat :Open Login View;
+
+if ( ) then ( )
+	stop
+else ( )
+	:Enter Login Data;
+endif
+
+:Submit Login Data;
+
+repeat while (login successful) is (no) not (yes)
+  
+:View Habitoverview;
+
+stop
+
+@enduml
+```
+
+### Abmelden
+```plantuml
+@startuml
+
+start
+
+:Open Website;
+
+:Perfom Logout Action;
+
+:View Landingpage;
+
+stop
+
+@enduml
+```

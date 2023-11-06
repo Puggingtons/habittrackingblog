@@ -2,8 +2,18 @@
 
 ## Activity Diagrams
 
-An dieser Stelle würden wir unsere Activity Diagrams darstellen, jedoch hat das hierfür verantwortliche Teammitglied seine Aufgabe nicht erfüllt :(
+Die Aufgabe, die Activity Diagrams zu erstellen, wollte eigentlich Janik übernehmen. Er hat diese jedoch nicht erstellt. Daher hat Paul diese Arbeit übernommen.
 
+Die Diagramme sind im SRS an den entsprechenden Stellen eingebunden, werden aber zusätzlich im Folgenden auch gezeigt:
+
+### Registration Activity Diagram
+![](../srs/activity_diagrams/registration.png)
+
+### Login Activity Diagram
+![](../srs/activity_diagrams/login.png)
+
+### Logout Activity Diagram
+![](../srs/activity_diagrams/logout.png)
 
 ## Sequence Diagrams
 

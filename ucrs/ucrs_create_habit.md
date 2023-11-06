@@ -25,7 +25,7 @@ Keine
 | ----- | --------- |
 | [Blog](https://puggingtons.github.io/habittrackingblog/) | Habittracker Team |
 | [GitHub](https://github.com/Puggingtons/habittracking) | Habittracker Team |
-| [UCRS Habitübersicht](ucrs_overview.md) | Habittracker Team|
+| [UCRS Habitübersicht](ucrs_overview) | Habittracker Team|
 
 ### 1.5 Overview
 
@@ -35,7 +35,7 @@ Im folgenden wird der Ablauf der Sequenz beschrieben sowie die Voraussetzungen f
 
 Die Hauptfunktion der Applikation ist das Erstellen & Verwalten von Habits (Angewohnheiten). Damit überhaupt ein Habit verwaltet und verfolgt werden kann, muss sie erst erstellt werden. Diese Sequenz dient somit zur Erstellung eines Habits. Es beginnt auf der Habitübersicht.
 
-![Erstellen eines Habits](create_habit.png)
+![Erstellen eines Habits](../srs/sequence_diagrams/create_habit.png)
 
 Die Sequenz benötigt insgesamt 4 Actor:
 
@@ -55,7 +55,7 @@ Nach erfolgreichem erstellen der Einträge gibt die Datenbank die Habitdaten an 
 
 Für den Ablauf der Sequenz wird benötigt:
 
-- Eine Habitübersicht (siehe [UCRS Habitübersicht](ucrs_overview.md))
+- Eine Habitübersicht (siehe [UCRS Habitübersicht](ucrs_overview))
 - Eine Schnittstellte zwischen Frontend & Backend
 - Eine Datenbank
 
