@@ -83,7 +83,7 @@ Um es Benutzern zu ermöglichen, eigene Habits in der Anwendung zu erstellen, be
 ![](sequence_diagrams/registration.png)
 
 ##### Activity Diagram
-![](activity_diagrams/registration.png)
+![](activity_diagrams/Aktivitätsdiagramm_registrieren.png)
 
 #### 3.1.2 Anmelden
 
@@ -93,7 +93,7 @@ Die Anwendung ermöglicht es Benutzern, sich anzumelden um so die eigenen Habits
 ![](sequence_diagrams/login.png)
 
 ##### Activity Diagram
-![](activity_diagrams/login.png)
+![](activity_diagrams/Aktivitätsdiagramm_anmelden.png)
 
 ##### Aktivitätsdiagramm
 
@@ -105,7 +105,7 @@ Die Anwendung ermöglicht es Benutzern, sich abzumelden, sodass mehrere Benutzer
 ![](sequence_diagrams/logout.png)
 
 ##### Activity Diagram
-![](activity_diagrams/logout.png)
+![](activity_diagrams/Aktivitätsdiagramm_abmelden.png)
 
 #### 3.1.4 Habit erstellen
 
