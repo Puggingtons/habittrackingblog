@@ -2,6 +2,7 @@
 
 ## Activity Diagrams
 
+
 ### Registration Activity Diagram
 ![](../srs/activity_diagrams/Aktivitätsdiagramm_registrieren.png)
 
