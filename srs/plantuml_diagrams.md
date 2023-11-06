@@ -243,3 +243,48 @@ fe -> us : Habitübersicht anzeigen
 deactivate fe
 @enduml
 ```
+
+## UML-Aktivitätsdiagramme
+### Registrieren
+@startuml
+start
+
+repeat :Benutzer gibt Daten ein;
+:sende Daten zur Datenbank;
+:check Daten;
+backward:Warnung "Daten unvollständig";
+repeat while (Daten falsch?)
+->no;
+If (Neuer Nutzer) then (yes)
+:Benutzerdaten anlegen;
+:Registration bestätigen;
+:Seite Anzeigen;
+else (no)
+:Warnung "Benutzer existiert bereits";
+:Registrierenseite anzeigen;
+@enduml
+
+## Anmelden
+@startuml
+start
+
+repeat :Benutzer gibt Logindaten ein;
+:sende Logindaten zur Datenbank;
+:check Logindaten;
+backward:Warnung "Benutzerdaten Falsch";
+repeat while (Daten falsch?)
+->no;
+:Login bestätigen;
+:Seite Anzeigen;
+stop
+@enduml
+
+## Abmelden
+@startuml
+start
+
+:Logout wird getätigt;
+:Sitzung wird entfernt;
+:Loginseite wird angezeigt;
+stop
+@enduml

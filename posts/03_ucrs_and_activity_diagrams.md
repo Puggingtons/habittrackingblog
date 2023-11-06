@@ -1,8 +1,9 @@
 # UCRS und Activity Diagrams
 
 ## Activity Diagrams
-
-An dieser Stelle würden wir unsere Activity Diagrams darstellen, jedoch hat das hierfür verantwortliche Teammitglied seine Aufgabe nicht erfüllt :(
+![Registrieren](srs/Aktivitätsdiagramm_registrieren.png)
+![Anmelden](srs/Aktivitätsdiagramm_anmelden.png)
+![Abmelden](srs/Aktivitätsdiagramm_abmelden.png)
 
 
 ## Sequence Diagrams
