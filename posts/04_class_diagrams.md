@@ -23,3 +23,6 @@ Diese Diagramme sind natürlich noch nicht komplett. Die weiteren Klassen und Be
 ## Weitere Aufgaben
 
 Kayra und Kai haben sich weiterhin in React eingearbeitet und Paul führte die Implementierung des Backends, sowie des Frontends weiter fort.
+
+---
+<script src="https://utteranc.es/client.js" repo="Puggingtons/habittrackingblog" issue-term="pathname" theme="github-light" crossorigin="anonymous" async> </script> 
