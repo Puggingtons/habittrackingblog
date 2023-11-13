@@ -360,3 +360,117 @@ start
 :Loginseite wird angezeigt;
 stop
 @enduml
+
+## Klassendiagramme
+```plantuml
+@startuml
+package backend {
+
+	package node_modules {
+		package @nest {
+			class JwtService
+		}
+	
+		package @prisma {
+			class PrismaClient
+		}
+	}
+	
+	package AppModule {
+	
+	}
+
+	package PrismaModule {
+		class PrismaService
+		PrismaService --|> PrismaClient
+	}
+	
+	package UsersModule {
+		class UsersService {
+			findOne()
+			create()
+		}
+	}
+	
+	package AuthModule {
+		class AuthService {
+			signIn()
+			signOut()
+			register()
+		}
+		AuthService ..> UsersService : <<use>>
+		AuthService ..> JwtService : <<use>>
+
+		class AuthController {
+			signIn()
+			signOut()
+			register()
+			getProfile()
+		}
+		AuthController ..> AuthService : <<use>>
+	}
+
+	AppModule ..> PrismaModule : <<use>>
+	AppModule ..> UsersModule : <<use>>
+	AppModule ..> AuthModule : <<use>>
+
+	UsersModule ..> PrismaModule : <<use>>
+
+	AuthModule ..> UsersModule : <<use>>
+}
+@enduml
+```
+
+ ```plantuml
+@startuml
+package frontend {
+	package node_modules {
+		package @react-router-dom {
+			class "Routes" as rr_routes
+			class "Route" as rr_route
+		}
+	}
+
+	package Components {
+		class Habit
+		package Dialogues {
+			class CreateHabit
+			class EditHabit
+			class DeleteHabit
+		}
+		Habit *-- CreateHabit
+		Habit *-- EditHabit
+		Habit *-- DeleteHabit
+	}
+	
+	package Routes {
+		class Login {
+			sendLogin()
+		}
+		
+		class Registration {
+			sendRegistration()
+		}
+		
+		class HabitOverview {
+		}
+		
+		class Habitview {
+		}
+
+		HabitOverview "*" *-- Habit
+		Habitview "1" *-- Habit
+	}
+
+	package Router {
+		class AppRoutes
+		AppRoutes ..> rr_routes : <<use>>
+		AppRoutes ..> rr_route : <<use>>
+		AppRoutes *-- Login
+		AppRoutes *-- Registration
+		AppRoutes *-- HabitOverview
+		AppRoutes *-- Habitview
+	}
+}
+@enduml
+```
