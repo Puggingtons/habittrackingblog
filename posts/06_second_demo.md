@@ -12,7 +12,7 @@ An der Login- sowie Register Page hat sich funktional nicht geändert. Die Ände
 
 
 #### Aktueller Stand Login Page:
-<img width="366" alt="image" src="https://github.com/Puggingtons/habittrackingblog/assets/109343396/59a32c7f-6c11-46fa-93b9-a6e142af3805">
+![](media/Habittracking_Login_dark.png)
 
 
 ### Beschreibung Main Page:
@@ -24,9 +24,16 @@ Die <em>Main Page</em> besteht im wesentlichen aus zwei Sektionen:
 
 #### Aktueller Stand der Main Page:
 
-<img width="1703" alt="grafik" src="https://github.com/Puggingtons/habittrackingblog/assets/109343396/40e770e2-983c-4d28-8665-89bdfae4ea18">
-Hier muss das CSS-Styling noch angepasst werden damit es dem Mockup entspricht.
+![](media/Habittracking_mainpage.png)
+Hier muss das CSS-Styling noch angepasst werden, damit es dem Mockup entspricht.
   
 
 ## Backend
-Im backend ist Paul ...
+Im Backend wurde die Implementierung des Habit Endpunktes begonnen.
+Zunächst gibt, um die Entwicklung des Frontends schneller zu realisieren, der Endpunkt, an dem die Habits eines Benutzers zurück gegeben werden, nur Mockdaten, da die genaue Modellierung eines Habits noch nicht genau fest gelegt ist.
+
+Ebenso wurde das Session-Handling im Frontend nachgezogen, sodass der Benutzer jetzt eingeloggt sein kann.
+
+---
+
+<script src="https://utteranc.es/client.js" repo="Puggingtons/habittrackingblog" issue-term="pathname" theme="github-light" crossorigin="anonymous" async> </script> 
