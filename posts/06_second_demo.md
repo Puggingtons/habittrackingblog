@@ -10,6 +10,11 @@ In allen Bereichen des Frontends schreitet die Entwicklung dank der Verwendung d
 ### Beschreibung Login & Register Page:
 An der Login- sowie Register Page hat sich funktional nicht geändert. Die Änderungen hier, beziehen sich auf das Theme und CSS-Styling.
 
+
+#### Aktueller Stand Login Page:
+![grafik](https://github.com/Puggingtons/habittrackingblog/assets/109343396/e7ba558a-0142-43f0-9646-f662fbca315e)
+
+
 ### Beschreibung Main Page:
 Die <em>Main Page</em> besteht im wesentlichen aus zwei Sektionen:
 - Die Hauptsektion welche die Habit Übersicht mit zugehörigen Control Elementen besitzt.
