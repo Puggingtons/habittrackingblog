@@ -12,7 +12,7 @@ An der Login- sowie Register Page hat sich funktional nicht geändert. Die Ände
 
 
 #### Aktueller Stand Login Page:
-![grafik](https://github.com/Puggingtons/habittrackingblog/assets/109343396/e7ba558a-0142-43f0-9646-f662fbca315e)
+<img width="366" alt="image" src="https://github.com/Puggingtons/habittrackingblog/assets/109343396/59a32c7f-6c11-46fa-93b9-a6e142af3805">
 
 
 ### Beschreibung Main Page:
