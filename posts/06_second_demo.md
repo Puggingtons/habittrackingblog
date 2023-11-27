@@ -22,6 +22,10 @@ Die <em>Main Page</em> besteht im wesentlichen aus zwei Sektionen:
 - Die Nebensektion welche eine Anzeige mit dem aktuellen Datum besitzt und eine Übersicht der "Anstehenden Habits" besitzt
   ist dafür gedacht den Nutzer in der Umsetzung seiner Habits zu unterstützen. Auch kann der Nutzer über eine Button in diesem Bereich in das Einstellungsmenü gelangen.
 
+#### Aktueller Stand der Main Page:
+
+<img width="1703" alt="grafik" src="https://github.com/Puggingtons/habittrackingblog/assets/109343396/40e770e2-983c-4d28-8665-89bdfae4ea18">
+Hier muss das CSS-Styling noch angepasst werden damit es dem Mockup entspricht.
   
 
 ## Backend
