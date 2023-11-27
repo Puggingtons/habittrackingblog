@@ -9,6 +9,7 @@ Der Text auf dieser Seite ist noch WIP 😇
 - [03: UCRS und Aktivitätsdiagramme](posts/03_ucrs_and_activity_diagrams)
 - [04: Klassendiagramme](posts/04_class_diagrams)
 - [05: Erste Demo](posts/05_first_demo)
+- [06: Zweite Demo](posts/06_second_demo)
 
 
 ## Links zu anderen Blogs
