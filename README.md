@@ -10,7 +10,7 @@ Der Text auf dieser Seite ist noch WIP 😇
 - [04: Klassendiagramme](posts/04_class_diagrams)
 - [05: Erste Demo](posts/05_first_demo)
 - [06: Zweite Demo](posts/06_second_demo)
-
+- [07: Architecture Significant Requirements](posts/07_asr)
 
 ## Links zu anderen Blogs
 - [Health Keeper](https://github.com/Chrissi-Ruege/HealthKeeper/discussions)
