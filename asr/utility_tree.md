@@ -1,6 +1,7 @@
 # Utility Tree
 
 (***L***ow, ***M***edium, ***H***igh)
+
 | Quality attribute | Refinement                          | Quality attribute scenarios                                                                                                                        | Business value | Techical Risk |
 | ----------------- | ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------- |
 | Security          | Passwortsicherheit                  | Wenn ein neuer Benutzer ein Passwort bei der Erstellung eines Accounts eingibt, wird dieses verschlüsselt gespeichert.                             | H              | L             |
