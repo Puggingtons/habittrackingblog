@@ -11,6 +11,7 @@ Der Text auf dieser Seite ist noch WIP 😇
 - [05: Erste Demo](posts/05_first_demo)
 - [06: Zweite Demo](posts/06_second_demo)
 - [07: Architecture Significant Requirements](posts/07_asr)
+- [08: Software Architecture Document](posts/08_sad)
 
 ## Links zu anderen Blogs
 - [Health Keeper](https://github.com/Chrissi-Ruege/HealthKeeper/discussions)
