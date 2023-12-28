@@ -49,6 +49,26 @@ Im Folgenden werden zunächst die architektonischen Ziele und Rahmenbedingungen 
 
 ## 2.	Architectural Representation
 
+Die Sichtweisen sind wie folgt erläutert:
+
+- ### Use-Case View
+  Der Benutzer interagiert mit der Anwendung hauptsächlich über das Frontend mithilfe des Interfaces. Im Hintergrund kommuniziert das Frontend mit dem Backend. Folgende Interaktionen sind möglich:
+  - Registrierung: Der Benutzer registriert sich neu über die Registration Page und ein neues Profil wird angelegt
+  - Login: Der Benutzer meldet sich über die Login Page als ein existierender Benutzer ein
+  - Main Page: Der Benutzer erhält einen Überblick über erstellte Habits und kann sie bearbeiten, neue hinzufügen oder bestehende löschen
+- ### Logical View
+  Die Webanwendung besteht aus dem Frontend und dem Backend als zwei Teilsysteme. Die Kommunikation erfolgt mithilfe einer REST-API zwischen den Teilsystemen.
+- ### Process View
+  Die Hauptsächlichen Teilnehmer der Prozesse sind der Benutzer, das Frontend, das Backend und die Datenbank. Zusammengefasst beginnt ein Prozess damit, indem der Benutzer eine Anfrage an das Frontend stellt, dass anschließend mithilfe der Datenbank über das Backend die Anfragen des Benutzers bearbeitet. Das Ergebnis der Anfrage wird über das Frontend dem Benutzer angezeigt.
+- ### Deployment View
+  Die Anwendung läuft auf einer V-Server Instanz bei `netcup.de`. Genauere Informationen sind zum aktuellen Zeitpunkt nicht verfügbar.
+- ### Implementation View
+  Im Backend der Anwendung wird das `nest.js` Framework verwendet. Die Voraussetzung an die Struktur des Codes sorgt dafür, dass jede Ressource in ein eigenes Modul gekapselt wird. Folgende Klassen sind in den Modulen definiert:
+  - Controller: Stellen Endpunkte zur Verfügung und bearbeiten Anfragen
+  - Services: Implementierung von Datenbankabfragen, Benutzer-Session-Handlung und sonstige interne Abläufe
+
+  Im Frontend wird das Framework von `react.js` verwendet zusammen mit der `Material UI` Komponenten-Bibliothek. Die Komponenten sind auf Material Design aufgebaut, was die Designsprache von Atomic Design voraussetzt.
+
 
 ## 3.	Architectural Goals and Constraints
 
