@@ -11,3 +11,7 @@ Wegen der Funktionsweise von react zusammen mit CSS & JS wurden Klassennamen und
 Es wurde beschlossen, dass zukünftig die Boy Scout Rule konsequent angewendet wird. Die bis jetzt verwendete Namenskonvention wird beibehalten.
 
 Zusätzlich wird jeder Code weiterhin, bevor er mit dem main Branch gemerged wird, vom Lead Developer auf funktionalität und die Einhaltung der Konventionen/Regeln überprüft (durch Reviews & statischer Code Analyse).
+
+---
+
+<script src="https://utteranc.es/client.js" repo="Puggingtons/habittrackingblog" issue-term="pathname" theme="github-light" crossorigin="anonymous" async> </script>
