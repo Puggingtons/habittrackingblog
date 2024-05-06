@@ -22,6 +22,7 @@ Der Text auf dieser Seite ist noch WIP 😇
 - [08: Software Architecture Document](posts/08_sad)
 - [09: Halbzeit](posts/09_halftime)
 - [10: Risikomanagement](posts/10_risk_management)
+- [11: Clean Code](posts/11_clean_code)
 
 ## Links zu anderen Blogs
 - [Health Keeper](https://github.com/Chrissi-Ruege/HealthKeeper/discussions)
