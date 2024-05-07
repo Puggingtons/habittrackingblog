@@ -8,7 +8,9 @@ Da das Frontend der wesentliche Bestandteil für die Interaktion mit dem Benutze
 
 ### Backend
 
-
+Das Backend ist für die korrekte Persistierung und Auslieferung der Daten der Anwendung zuständig.
+Um diese Funktionalitäten zu gewährleisten und auf Korrektheit zu prüfen, sind Tests sinnvoll.
+Durch diese Tests kann auch vermieden werden, durch Änderungen an der Datenbank die API-Definition ungewollt zu verändern.
 
 ## Ziele der Tests
 
@@ -18,7 +20,8 @@ Die Tests im Frontend sollen sicherstellen, dass alle Funktionen der Applikation
 
 ### Backend
 
-
+Die Tests im Backend sollen sicherstellen, dass die einzelnen Komponenten, wie Controller, Services oder Guards, individuell korrekt funktionieren.
+Weiterhin soll durch die Tests sichergestellt werden, dass diese auch miteinander ein korrektes Verhalten aufweisen.
 
 ## Arten der Tests
 
@@ -46,7 +49,13 @@ Im Frontend gibt es keine automatisierten Tests, die ausgeführt werden können.
 
 ### Backend
 
-github deployement/ci tests? https://docs.github.com/de/actions/automating-builds-and-tests/building-and-testing-nodejs
+Die Dokumentation des von uns im Backend verwendeten Frameworks `nest.js` hat beinhaltet das Vorgehen des Testens einer `nest.js` Anwendung. Diese Dokumentation ist [hier](https://docs.nestjs.com/fundamentals/testing) zu finden.
+`nest.js` ist mit `jest` sehr gut testbar, da das Framework dies von sich aus unterstützt.
+
+Die oben genannten Komponenten können so mit Unit-Tests getestet werden.
+Um die Abhängigkeiten zu anderen Komponenten aus dem getesteten Code zu isolieren, liefert `nest.js` die `@nestjs/testing` package. Diese ermöglicht es, Module zu mocken.
+
+<!-- github deployement/ci tests? https://docs.github.com/de/actions/automating-builds-and-tests/building-and-testing-nodejs -->
 
 ## Verwaltung/Vorgehensweise
 
@@ -57,3 +66,9 @@ Die Tests für das Frontend müssen seperat geschrieben und konfiguriert werden.
 Es wurden bis jetzt keine Tests für das Frontend geschrieben, da sich diese noch in der aktiven Entwicklung befindet. Es ist geplant, im Verlauf der Entwicklung Tests zu schreiben, um die Funktionsweise zu überprüfen. Kurz vor Ende der Entwicklung wird das Frontend vollständig mit den vorhin genannten Tools getestet.
 
 ### Backend
+
+Die Tests werdern unabhängig vom Frontend implementiert. Jede Komponente erhält eine eigene Test-Datei. Diese Test-Datei beginnt wie die Quelldatei der Komponente und hat die Endung `.spec.ts` (z.B. `habits.controller.spec.ts`).
+
+---
+
+<script src="https://utteranc.es/client.js" repo="Puggingtons/habittrackingblog" issue-term="pathname" theme="github-light" crossorigin="anonymous" async> </script>
