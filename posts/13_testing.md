@@ -5,6 +5,9 @@ in dieser Woche konnten wir die Implementierung unserer Tests fortsetzen. Kayra 
 
 Am Testplan gibt es bisher keine Änderungen.
 
+## Testing im Frontend
+Nachdem es im Frontendtestingsetup einige Probleme mit Jest und Typescript gab, konnte Kayra erfolgreich die Testingumgebung für das Frontend einrichten. Tests folgen in den kommenden Wochen.
+
 ## Testing im Backend
 Beim Testen im Backend sind ein paar Probleme mit dem Testing Framework und dem Modulsystem von Nest.js entstanden.
 Um die Datenbankanbindung, die wir mit Prisma implementiert haben, zu mocken, sind wir [diesem Vorschlag](https://stackoverflow.com/a/73697154) gefolgt. Ebenso mussten wir in der `tsconfig.json` den `strictNullCheck` aktivieren, um eine Fehlermeldung von zyklischen Abhängigkeiten zu beheben. (siehe [hier](https://www.prisma.io/docs/orm/prisma-client/testing/unit-testing#mocking-the-prisma-client))
