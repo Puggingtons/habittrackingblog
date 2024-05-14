@@ -24,6 +24,8 @@ Der Text auf dieser Seite ist noch WIP 😇
 - [10: Risikomanagement](posts/10_risk_management)
 - [11: Clean Code](posts/11_clean_code)
 - [12: Testplan](posts/12_testplan)
+- [13: Testing Testing Testing](posts/13_testing)
+
 ## Links zu anderen Blogs
 - [Health Keeper](https://github.com/Chrissi-Ruege/HealthKeeper/discussions)
 - [Dinder](https://github.com/dhbw-ka-tinf22b5-dinder/Dinder/discussions)
