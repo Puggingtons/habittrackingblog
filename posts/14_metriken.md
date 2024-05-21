@@ -32,7 +32,7 @@ Nach mehrmaligem Messen erhielten wir folgende Metriken für die Login Page:
 - Laden der Scripte: ~410ms
 - Rendern der Seite: ~10ms
 - System, Painting, Loading und Idling: ~40ms
-- **Gesammtzeit: ~460ms**
+- **Gesamtzeit: ~460ms**
 
 Die Renderdauer besitzt somit aus unserer Sicht eine absolut akzeptable Dauer von einer halben Sekunde zum vollständigen Laden der Login Page. Es ist jedoch anzumerken, dass auf die Seite lokal zugegriffen wird. Heißt: Es können eventuelle Verzögerungen hinzukommen, falls die Seite Online gestellt wird (die durch das Netzwerk beeinflusst werden können).
 
@@ -43,3 +43,23 @@ Die Renderdauer besitzt somit aus unserer Sicht eine absolut akzeptable Dauer vo
 ![Speicher-Aufschlüsselung der Login Page](/posts/media/SpeicherLoginPage.png)
 
 Es wurde festgestellt, dass die Login Page im **Durchschnitt ~22MB** an Speicher benötigt, um komplett angezeigt zu werden. Dies ist in unseren Augen ein akzeptabler Speicherverbrauch.
+
+## Metriken im Backend und für das ganze Projekt
+
+Für das Backend, und eigentlich auch für das gesamte Projekt, haben wir, inspiriert von anderen Gruppen, eine Sonarcloud Analyse über Github eingebunden.
+
+Sonarcloud gibt Standardmäßig drei Metriken an. Diese benutzen wir für unser Projekt.
+Diese Metriken sind:
+- Security
+- Reliability
+- Maintainability
+
+Für diese werden Noten vergeben. (wie im amerikanischen Schulsystem: **A** am besten, **F** am schlechtesten)
+
+Unser Ziel ist es, in jeder Metrik ein **A** zu erreichen.
+Aktuell hat unser Projekt folgende Bewertung:
+![](media/sonarcloud_metrics_1.png)
+
+---
+
+<script src="https://utteranc.es/client.js" repo="Puggingtons/habittrackingblog" issue-term="pathname" theme="github-light" crossorigin="anonymous" async> </script>

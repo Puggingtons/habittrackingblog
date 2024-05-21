@@ -25,6 +25,7 @@ Der Text auf dieser Seite ist noch WIP 😇
 - [11: Clean Code](posts/11_clean_code)
 - [12: Testplan](posts/12_testplan)
 - [13: Testing Testing Testing](posts/13_testing)
+- [14: Testmetriken](posts/14_metriken)
 
 ## Links zu anderen Blogs
 - [Health Keeper](https://github.com/Chrissi-Ruege/HealthKeeper/discussions)
