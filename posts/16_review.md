@@ -12,8 +12,9 @@ Bei einem Mergerequest in den `main`-Branch wird zunächst eine Sonarcubeanalyse
 Beim Merge in den `main`-Branch wird dann der von uns definierte Workflow ausgeführt. Dabei werden zuerst die Tests im Frontend und im Backend ausgeführt. Wenn diese erfolgreich waren, wird der `build & deploy` Schritt durchgeführt, in dem das Dockerimage gebaut wird und auf den Server deployed wird.
 
 ## Review
+Unser Review haben wir mit Jannis vom `Dinder`-Projekt durchgeführt. Den Bericht davon findet ihr [hier](../review/20240603).
 
-#todo :)
+---
 
 Wir sind weiterhin dabei, die Anwendung weiter zu implementieren und können es kaum erwarten, euch nächste Woche das Ergebnis zu zeigen.
 
