@@ -28,6 +28,8 @@ Der Text auf dieser Seite ist noch WIP 😇
 - [14: Testmetriken](posts/14_metriken)
 - [15: CICD](posts/15_cicd)
 - [16: Review](posts/16_review)
+- [17: Retrospektive](posts/17_retrospektive)
+- [18: Finale Abgabe](posts/18_final_submission)
 
 ## Links zu anderen Blogs
 - [Health Keeper](https://github.com/Chrissi-Ruege/HealthKeeper/discussions)
